@@ -23,6 +23,7 @@ public class Maze{
         return this.depth;
     }
 
+
     public boolean isExitSpace(int xIndex, int yIndex, int zIndex){
         return this.nodes[xIndex][yIndex][zIndex].isExit;
     }
